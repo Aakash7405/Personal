@@ -28,6 +28,31 @@ const Home = ({navigation}) => {
             source={require('../images/maharaja.jpg')}
           />
         </View>
+        <Text>Hi i am aakash</Text>
+        <Text>Hi i am aakash</Text>
+        <Text>Hi i am aakash</Text>
+        <Text>Hi i am aakash</Text>
+        <View style={styles.landingImageContainer}>
+          <Image
+            style={styles.landingImage}
+            source={require('../images/maharaja.jpg')}
+          />
+        </View><View style={styles.landingImageContainer}>
+          <Image
+            style={styles.landingImage}
+            source={require('../images/maharaja.jpg')}
+          />
+        </View><View style={styles.landingImageContainer}>
+          <Image
+            style={styles.landingImage}
+            source={require('../images/maharaja.jpg')}
+          />
+        </View><View style={styles.landingImageContainer}>
+          <Image
+            style={styles.landingImage}
+            source={require('../images/maharaja.jpg')}
+          />
+        </View>
         {movieData.length > 0 && (
           <PreviewImageSlider data={movieData} title={titleData[0]} />
         )}
